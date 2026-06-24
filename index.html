@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JPPL Solutions (JPPL Consultancy Services) - Your trusted corporate partner in India for GST, MSME, FSSAI registration, ISO certification, Tender consultancy, web development, and financial advisory. Based in Kanpur, Uttar Pradesh.">
+    <title>JPPL Solutions | End-to-End Business & Corporate Solutions</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- TOP CONTACT BAR -->
+    <div class="top-bar" id="topBar">
+        <div class="container top-bar-container">
+            <div class="top-bar-contacts">
+                <a href="tel:+919369288078" class="contact-link"><i class="fa-solid fa-phone phone-icon"></i> +91 9369288078</a>
+                <span class="separator">|</span>
+                <a href="mailto:jioliteproducts@gmail.com" class="contact-link"><i class="fa-solid fa-envelope envelope-icon"></i> jioliteproducts@gmail.com</a>
+                <span class="separator">|</span>
+                <span class="contact-link"><i class="fa-solid fa-location-dot location-icon"></i> Kanpur, Uttar Pradesh</span>
+            </div>
+            <div class="top-bar-cta">
+                <a href="#quote-section" class="btn btn-gold btn-small animate-pulse">Enquire Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- STICKY NAVBAR -->
+    <header class="main-header" id="mainHeader">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-area" id="logoLink">
+                <img src="assets/logo.png" alt="JPPL Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">JPPL</span>
+                    <span class="logo-subtitle">Solutions</span>
+                </div>
+            </a>
+
+            <!-- Mobile Navigation Menu Toggle -->
+            <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link">About Us</a></li>
+                    
+                    <!-- Mega Menu Dropdown -->
+                    <li class="nav-item has-mega-menu">
+                        <a href="services.html" class="nav-link dropdown-trigger">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+                        <div class="mega-menu" id="megaMenu">
+                            <div class="container mega-menu-grid">
+                                <!-- Col 1: Business Setup -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-briefcase col-icon"></i> Legal Setup</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/gst-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> GST Registration</a></li>
+                                        <li><a href="services/msme-udyam-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> MSME / Udyam</a></li>
+                                        <li><a href="services/fssai-food-license.html"><i class="fa-solid fa-chevron-right link-bullet"></i> FSSAI Food License</a></li>
+                                        <li><a href="services/iec-import-export-code.html"><i class="fa-solid fa-chevron-right link-bullet"></i> IEC Import Export</a></li>
+                                        <li><a href="services/trademark-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Trademark Protection</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 2: Licensing -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-certificate col-icon"></i> Quality & Licensing</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/iso-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ISO Certification</a></li>
+                                        <li><a href="services/zed-green-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ZED Green Certification</a></li>
+                                        <li><a href="services/gem-portal-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> GeM Registration</a></li>
+                                        <li><a href="services/bis-standards-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> BIS Standards</a></li>
+                                        <li><a href="services/trade-licence.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Trade License</a></li>
+                                        <li><a href="services/factory-licence.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Factory License</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 3: Capital Advisory -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-landmark col-icon"></i> Capital Advisory</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/government-tender-consultancy.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Government Tenders</a></li>
+                                        <li><a href="services/dpr-project-report-preparation.html"><i class="fa-solid fa-chevron-right link-bullet"></i> DPR & Bank Projects</a></li>
+                                        <li><a href="services/startup-india-recognition.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Startup India Recognition</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 4: Digital Growth -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-laptop-code col-icon"></i> Digital Growth</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/website-development-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Website Engineering</a></li>
+                                        <li><a href="services/digital-marketing-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Digital Marketing</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 5: Specialized -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-handshake col-icon"></i> Specialized Services</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/women-entrepreneur-consultant.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Women Mentorship</a></li>
+                                        <li><a href="services/financial-advisory-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Financial Advisory</a></li>
+                                        <li><a href="services/healthcare-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Corporate Health</a></li>
+                                        <li><a href="services/lab-corp-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Lab Diagnostics (NABL)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services Hub</a></li>
+                    <li class="nav-item"><a href="#quote-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline">JPPL SOLUTIONS</span>
+                <h1 class="hero-title">Your Trusted Partner for <span class="highlight-text">End-to-End</span> Business Solutions</h1>
+                <p class="hero-subtitle">Empowering businesses across India with seamless legal compliance, strategic financial planning, and cutting-edge digital growth solutions.</p>
+                <div class="hero-cta-buttons">
+                    <a href="#services-hub" class="btn btn-primary btn-large">Explore Services</a>
+                    <a href="#about-section" class="btn btn-secondary btn-large">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Floating Consultation Card -->
+            <div class="hero-form-card animate-slide-up" id="quickConsultationCard">
+                <h3 class="form-card-title">Get Free Consultation</h3>
+                <p class="form-card-desc">Submit your details and our experts will reach out to you within 24 hours.</p>
+                <form id="quickConsultationForm" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="quickName" class="form-label">Full Name</label>
+                        <input type="text" id="quickName" name="name" class="form-input" placeholder="e.g., Ramesh Kumar" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quickPhone" class="form-label">Phone Number</label>
+                        <input type="tel" id="quickPhone" name="phone" class="form-input" placeholder="e.g., +91 93692 88078" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quickService" class="form-label">Service Needed</label>
+                        <select id="quickService" name="service" class="form-select" required>
+                            <option value="" disabled selected>Select a Category...</option>
+                            <option value="Legal Registration">Business Setup & Legal Registration</option>
+                            <option value="Corporate Licensing">Quality Assurance & Licensing</option>
+                            <option value="Strategic Advisory">Government Bidding & Project Reports</option>
+                            <option value="Digital Growth">Website & Digital Marketing</option>
+                            <option value="Specialized Advisory">Specialized Financial / Health Advisory</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-full-width">Request Call Back</button>
+                </form>
+                <div id="quickFormFeedback" class="form-feedback hide"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BADGES SECTION -->
+    <section class="trust-badges-section">
+        <div class="container">
+            <div class="trust-grid">
+                <!-- Badge 1 -->
+                <div class="trust-card">
+                    <div class="trust-icon-box">
+                        <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <h3 class="trust-title">Expert Team</h3>
+                    <p class="trust-desc">Seasoned industry professionals driving your corporate growth and compliance.</p>
+                </div>
+                <!-- Badge 2 -->
+                <div class="trust-card">
+                    <div class="trust-icon-box">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <h3 class="trust-title">Fast Processing</h3>
+                    <p class="trust-desc">Efficient workflows designed to minimize turnaround times and delays.</p>
+                </div>
+                <!-- Badge 3 -->
+                <div class="trust-card">
+                    <div class="trust-icon-box">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3 class="trust-title">Affordable Pricing</h3>
+                    <p class="trust-desc">Transparent billing models with competitive pricing and zero hidden fees.</p>
+                </div>
+                <!-- Badge 4 -->
+                <div class="trust-card">
+                    <div class="trust-icon-box">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3 class="trust-title">PAN India Service</h3>
+                    <p class="trust-desc">Seamless remote execution and physical service delivery across all Indian states.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section scroll-fade" id="about-section">
+        <div class="container about-container">
+            <div class="about-visual">
+                <img src="assets/hero_banner.png" alt="JPPL Corporate Synergy" class="about-img">
+                <div class="about-stat-overlay">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-text">Compliance Assured</span>
+                </div>
+            </div>
+            <div class="about-text-content">
+                <span class="section-subtitle">ABOUT JPPL SOLUTIONS</span>
+                <h2 class="section-title">A Multi-Disciplinary Approach to Corporate Growth</h2>
+                <p class="about-para">JPPL Solutions (operating as JPPL Consultancy Services) is an authoritative corporate consulting hub specializing in bridging legal compliance, financial excellence, and digital engineering.</p>
+                <p class="about-para">We assist startups, manufacturers, and established enterprises in navigate statutory registrations, acquire premium ISO & BIS quality certifications, draft bank-grade Detailed Project Reports, and engineer high-performance web ecosystems. Based in Kanpur, Uttar Pradesh, we support businesses across PAN India to accelerate operational scalability while ensuring zero regulatory loopholes.</p>
+                <div class="about-features">
+                    <div class="about-feature-item">
+                        <i class="fa-solid fa-shield-halved check-icon"></i>
+                        <div>
+                            <strong>Full Legal Safeguard:</strong> Comprehensive assistance across GST, Trademark protection, and municipal licensing.
+                        </div>
+                    </div>
+                    <div class="about-feature-item">
+                        <i class="fa-solid fa-rocket check-icon"></i>
+                        <div>
+                            <strong>Digital Supremacy:</strong> Custom corporate website engineering and local SEO systems mapped directly for search engines.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES OVERVIEW HUB -->
+    <section class="services-hub-section" id="services-hub">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">OUR SERVICE PORTFOLIO</span>
+                <h2 class="section-title">Comprehensive Business Clusters</h2>
+                <p class="section-desc max-width-600">Explore our five core consulting divisions containing 20 specialized business growth and legal compliance services.</p>
+            </div>
+
+            <div class="services-overview-grid">
+                <!-- Cluster 1 -->
+                <div class="service-cluster-card scroll-fade">
+                    <div class="cluster-header">
+                        <div class="cluster-icon-wrapper">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <h3 class="cluster-title">Business Setup & Registration</h3>
+                    </div>
+                    <p class="cluster-desc">Official compliance, tax registration, and brand authorization frameworks tailored to launch your enterprise safely.</p>
+                    <ul class="cluster-item-list">
+                        <li><i class="fa-solid fa-square-check"></i> GST Registration</li>
+                        <li><i class="fa-solid fa-square-check"></i> MSME / Udyam</li>
+                        <li><i class="fa-solid fa-square-check"></i> FSSAI Food License</li>
+                        <li><i class="fa-solid fa-square-check"></i> IEC Import Export</li>
+                        <li><i class="fa-solid fa-square-check"></i> Trademark Protection</li>
+                    </ul>
+                    <a href="services.html?cat=legal" class="cluster-link-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Cluster 2 -->
+                <div class="service-cluster-card scroll-fade">
+                    <div class="cluster-header">
+                        <div class="cluster-icon-wrapper">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3 class="cluster-title">Licensing & Quality Certifications</h3>
+                    </div>
+                    <p class="cluster-desc">Equipping manufacturers and traders with globally recognized quality standards, factory licenses, and public market entries.</p>
+                    <ul class="cluster-item-list">
+                        <li><i class="fa-solid fa-square-check"></i> ISO Certifications</li>
+                        <li><i class="fa-solid fa-square-check"></i> ZED Green Manufacturing</li>
+                        <li><i class="fa-solid fa-square-check"></i> GeM Procurement Portal</li>
+                        <li><i class="fa-solid fa-square-check"></i> BIS Safety Certification</li>
+                        <li><i class="fa-solid fa-square-check"></i> Factory & Trade Licenses</li>
+                    </ul>
+                    <a href="services.html?cat=quality" class="cluster-link-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Cluster 3 -->
+                <div class="service-cluster-card scroll-fade">
+                    <div class="cluster-header">
+                        <div class="cluster-icon-wrapper">
+                            <i class="fa-solid fa-file-contract"></i>
+                        </div>
+                        <h3 class="cluster-title">Government & Capital Advisory</h3>
+                    </div>
+                    <p class="cluster-desc">Strategic capitalization schemes, professional bid compilation, and institutional startup recognition models.</p>
+                    <ul class="cluster-item-list">
+                        <li><i class="fa-solid fa-square-check"></i> Tender Bid Consultancy</li>
+                        <li><i class="fa-solid fa-square-check"></i> Detailed Project Reports (DPR)</li>
+                        <li><i class="fa-solid fa-square-check"></i> Startup India Recognition</li>
+                    </ul>
+                    <a href="services.html?cat=capital" class="cluster-link-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Cluster 4 -->
+                <div class="service-cluster-card scroll-fade">
+                    <div class="cluster-header">
+                        <div class="cluster-icon-wrapper">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h3 class="cluster-title">Digital Growth Solutions</h3>
+                    </div>
+                    <p class="cluster-desc">Custom web engineering, landing page funnels, corporate email configurations, and target SEO lead pipelines.</p>
+                    <ul class="cluster-item-list">
+                        <li><i class="fa-solid fa-square-check"></i> Responsive Web Engineering</li>
+                        <li><i class="fa-solid fa-square-check"></i> E-commerce Storefronts</li>
+                        <li><i class="fa-solid fa-square-check"></i> Local SEO & GMB Maps</li>
+                        <li><i class="fa-solid fa-square-check"></i> Targeted Digital Marketing</li>
+                    </ul>
+                    <a href="services.html?cat=digital" class="cluster-link-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Cluster 5 -->
+                <div class="service-cluster-card scroll-fade">
+                    <div class="cluster-header">
+                        <div class="cluster-icon-wrapper">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="cluster-title">Specialized Corporate Consulting</h3>
+                    </div>
+                    <p class="cluster-desc">Mentorship networks, corporate cash-flow optimization models, and statutory medical compliance standards.</p>
+                    <ul class="cluster-item-list">
+                        <li><i class="fa-solid fa-square-check"></i> Women Entrepreneur Advisory</li>
+                        <li><i class="fa-solid fa-square-check"></i> Asset & Tax Financial Advisory</li>
+                        <li><i class="fa-solid fa-square-check"></i> Corporate Medical Blueprints</li>
+                        <li><i class="fa-solid fa-square-check"></i> NABL Niche Lab Diagnostics</li>
+                    </ul>
+                    <a href="services.html?cat=specialized" class="cluster-link-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION: QUICK OVERVIEW -->
+    <section class="cta-banner-section">
+        <div class="container cta-banner-container">
+            <div class="cta-banner-content">
+                <h2>Accelerate Your Business Approvals</h2>
+                <p>Register under government compliance systems and access capital funding programs with certified professionals.</p>
+            </div>
+            <a href="services.html" class="btn btn-gold btn-large">View Detailed Requirements</a>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE LEAD CAPTURE & FOOTER SECTION -->
+    <section class="quote-section" id="quote-section">
+        <div class="container">
+            <div class="quote-container-grid">
+                <!-- Form Box -->
+                <div class="quote-form-wrapper scroll-fade">
+                    <h2 class="quote-heading">Request Custom Quote</h2>
+                    <p class="quote-subheading">Select services you need and we will prepare a specialized feasibility plan.</p>
+                    
+                    <!-- Multi-step form tracker -->
+                    <div class="form-steps-indicator">
+                        <div class="step-dot active" id="stepIndicator1"><span>1</span> Services</div>
+                        <div class="step-line" id="stepLine1"></div>
+                        <div class="step-dot" id="stepIndicator2"><span>2</span> Contact</div>
+                        <div class="step-line" id="stepLine2"></div>
+                        <div class="step-dot" id="stepIndicator3"><span>3</span> Submit</div>
+                    </div>
+
+                    <form id="multiStepQuoteForm" action="#" method="POST">
+                        <!-- STEP 1: SERVICE CHECKBOXES -->
+                        <div class="form-step-pane active" id="formStepPane1">
+                            <h4 class="step-pane-title">Choose Services (Select all that apply)</h4>
+                            <div class="checkbox-columns">
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Legal Setup</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="GST Registration">
+                                        <span class="checkmark"></span> GST Registration
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="MSME/Udyam Registration">
+                                        <span class="checkmark"></span> MSME / Udyam
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="FSSAI Registration">
+                                        <span class="checkmark"></span> FSSAI Food License
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="IEC Import Export Code">
+                                        <span class="checkmark"></span> Import Export (IEC)
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Trademark Registration">
+                                        <span class="checkmark"></span> Trademark (TM/®)
+                                    </label>
+                                </div>
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Quality & Licensing</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="ISO Certification">
+                                        <span class="checkmark"></span> ISO Certification
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="ZED Certification">
+                                        <span class="checkmark"></span> ZED Green Cert
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="GeM Portal Registration">
+                                        <span class="checkmark"></span> GeM Registration
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="BIS Certification">
+                                        <span class="checkmark"></span> BIS Certification
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Trade License">
+                                        <span class="checkmark"></span> Trade License
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Factory License">
+                                        <span class="checkmark"></span> Factory License
+                                    </label>
+                                </div>
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Other Verticals</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Tender Bidding Advisory">
+                                        <span class="checkmark"></span> Tender Consultancy
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Bank DPR Project Reports">
+                                        <span class="checkmark"></span> DPR Preparation
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Startup India Framework">
+                                        <span class="checkmark"></span> Startup India
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Website Engineering">
+                                        <span class="checkmark"></span> Web Engineering
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Digital Marketing Campaigns">
+                                        <span class="checkmark"></span> Digital Marketing
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Women Entrepreneur Advisory">
+                                        <span class="checkmark"></span> Women Mentorship
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-primary" id="btnNext1">Continue to Contact Info <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 2: CONTACT INFO -->
+                        <div class="form-step-pane" id="formStepPane2">
+                            <h4 class="step-pane-title">Contact & Professional Details</h4>
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="contactName" class="form-label">Full Name *</label>
+                                    <input type="text" id="contactName" name="contactName" class="form-input" placeholder="e.g., Ramesh Kumar">
+                                </div>
+                                <div class="form-group flex-1">
+                                    <label for="contactPhone" class="form-label">Phone Number *</label>
+                                    <input type="tel" id="contactPhone" name="contactPhone" class="form-input" placeholder="e.g., +91 93692 88078">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="contactEmail" class="form-label">Email Address *</label>
+                                    <input type="email" id="contactEmail" name="contactEmail" class="form-input" placeholder="e.g., ramesh@example.com">
+                                </div>
+                                <div class="form-group flex-1">
+                                    <label for="contactLocation" class="form-label">Business City / Location *</label>
+                                    <input type="text" id="contactLocation" name="contactLocation" class="form-input" placeholder="e.g., Kanpur, Uttar Pradesh">
+                                </div>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary" id="btnPrev2"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                <button type="button" class="btn btn-primary" id="btnNext2">Review & Write Message <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 3: MESSAGE & SUBMIT -->
+                        <div class="form-step-pane" id="formStepPane3">
+                            <h4 class="step-pane-title">Brief Your Requirement</h4>
+                            <div class="form-group">
+                                <label for="contactMessage" class="form-label">Specific requirements or questions (Optional)</label>
+                                <textarea id="contactMessage" name="contactMessage" rows="5" class="form-textarea" placeholder="Provide additional details regarding your setup, scale, or deadlines..."></textarea>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary" id="btnPrev3"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                <button type="submit" class="btn btn-gold" id="btnSubmitQuote">Submit Final Request <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="multiStepFormFeedback" class="form-feedback hide"></div>
+                </div>
+
+                <!-- Contact Info & Map Box -->
+                <div class="quote-info-wrapper scroll-fade">
+                    <div class="info-block">
+                        <h3 class="info-block-title">Corporate Headquarters</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-map-location-dot block-icon"></i> Kanpur, Uttar Pradesh, India</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3 class="info-block-title">Call or Message Us</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-phone block-icon"></i> <a href="tel:+919369288078">+91 9369288078</a>,<i class="fa-solid fa-phone block-icon"></i><a href="tel:+919369288078">+91 9336274060</a></p>
+                        <p class="info-block-detail"><i class="fa-solid fa-envelope block-icon"></i> <a href="mailto:jioliteproducts@gmail.com">jioliteproducts@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3 class="info-block-title">Operational Working Hours</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-clock block-icon"></i> Monday - Saturday: 10:00 AM - 07:00 PM</p>
+                    </div>
+
+                    <!-- Kanpur Map Embed -->
+                    <div class="map-embed-wrapper">
+                        <!-- Embedded Responsive Google Map for Kanpur, Uttar Pradesh -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114312.44390610368!2d80.26421453303668!3d26.44741282276538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1719112454652!5m2!1sen!2sin" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER BRANDING -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-col-brand">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="JPPL Logo" class="footer-logo-img">
+                    <div class="footer-logo-text">
+                        <span class="footer-logo-title">JPPL</span>
+                        <span class="footer-logo-subtitle">Solutions</span>
+                    </div>
+                </div>
+                <p class="footer-brand-tagline">JPPL SOLUTIONS - Your Trusted Partner for End-to-End Business Solutions.</p>
+                <p class="footer-brand-desc">Also operating as JPPL Consultancy Services. We deliver authoritative corporate setup, industrial quality licensing, tender consulting, website engineering, and consumer-centric health tracking systems.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col-links">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                    <li><a href="#about-section"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+                    <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Services Hub</a></li>
+                    <li><a href="#quote-section"><i class="fa-solid fa-angle-right"></i> Request Quote</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-links">
+                <h4 class="footer-title">Our Verticals</h4>
+                <ul class="footer-links-list">
+                    <li><a href="services.html?cat=legal"><i class="fa-solid fa-angle-right"></i> Business Setup</a></li>
+                    <li><a href="services.html?cat=quality"><i class="fa-solid fa-angle-right"></i> Quality Licensing</a></li>
+                    <li><a href="services.html?cat=capital"><i class="fa-solid fa-angle-right"></i> Capital Advisory</a></li>
+                    <li><a href="services.html?cat=digital"><i class="fa-solid fa-angle-right"></i> Digital Growth</a></li>
+                    <li><a href="services.html?cat=specialized"><i class="fa-solid fa-angle-right"></i> Specialized Advisory</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-contacts">
+                <h4 class="footer-title">Direct Contacts</h4>
+                <p class="footer-contact-item"><i class="fa-solid fa-phone"></i> +91 9369288078, +91 9336274060</p>
+                <p class="footer-contact-item"><i class="fa-solid fa-envelope"></i> jioliteproducts@gmail.com</p>
+                <p class="footer-contact-item"><i class="fa-solid fa-location-dot"></i> Kanpur, Uttar Pradesh, India</p>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+            <div class="container copyright-container">
+                <p>&copy; 2026 JPPL Solutions. All rights reserved. Operating under legal corporate frameworks.</p>
+                <p>Designed and Engrained for Supreme Corporate Authority.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
