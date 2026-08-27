@@ -1,5 +1,5 @@
 /* ==========================================
-   JPPL SOLUTIONS - INTERACTIVE LOGIC
+   JPPL - INTERACTIVE LOGIC
    Vanilla Javascript for Client-Side Operations
    ========================================== */
 
@@ -66,13 +66,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            // Simulate form submission
+            // Submit form to serverless API
             showFeedback(quickFeedback, 'Sending request...', 'success');
             
-            setTimeout(() => {
-                showFeedback(quickFeedback, `Thank you, ${name}! Our team will call you back on ${phone} regarding ${service}.`, 'success');
-                quickForm.reset();
-            }, 1200);
+            fetch('/api/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    formType: 'quick',
+                    name: name,
+                    phone: phone,
+                    service: service
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success) {
+                    showFeedback(quickFeedback, `Thank you, ${name}! Our team will call you back on ${phone} regarding ${service}.`, 'success');
+                    quickForm.reset();
+                } else {
+                    showFeedback(quickFeedback, 'Failed to send inquiry. Please call us directly.', 'error');
+                }
+            })
+            .catch(err => {
+                console.error('Error submitting form:', err);
+                showFeedback(quickFeedback, 'Error sending request. Please call us directly.', 'error');
+            });
         });
     }
 
@@ -267,32 +288,55 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedServices.push(cb.value);
             });
 
-            // Submission Feedback
+            // Submit form to serverless API
             showFeedback(formFeedback, 'Submitting quote request...', 'success');
             
-            setTimeout(() => {
-                showFeedback(formFeedback, `Thank you, ${name}! Your detailed request regarding ${selectedServices.length > 0 ? selectedServices.length : 'general'} services has been logged. We will reach out at ${email} shortly.`, 'success');
-                
-                // Complete the final step indicator state
-                if (stepIndicator3) stepIndicator3.classList.add('completed');
-                
-                quoteForm.reset();
-                // Reset sync checks labels
-                document.querySelectorAll('.quote-check-label').forEach(label => label.classList.remove('selected'));
-                updateSelectionState();
+            fetch('/api/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    formType: 'detailed',
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    location: location,
+                    message: message,
+                    services: selectedServices
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success) {
+                    showFeedback(formFeedback, `Thank you, ${name}! Your detailed request regarding ${selectedServices.length > 0 ? selectedServices.length : 'general'} services has been logged. We will reach out at ${email} shortly.`, 'success');
+                    
+                    // Complete the final step indicator state
+                    if (stepIndicator3) stepIndicator3.classList.add('completed');
+                    
+                    quoteForm.reset();
+                    // Reset sync checks labels
+                    document.querySelectorAll('.quote-check-label').forEach(label => label.classList.remove('selected'));
+                    updateSelectionState();
 
-                // Go back to step 1 panel after reset
-                setTimeout(() => {
-                    navigateToStep(formStepPane3, formStepPane1, stepIndicator3, stepIndicator1, null);
-                    if (stepIndicator1) stepIndicator1.className = "step-dot active";
-                    if (stepIndicator2) stepIndicator2.className = "step-dot";
-                    if (stepIndicator3) stepIndicator3.className = "step-dot";
-                    if (stepLine1) stepLine1.classList.remove('completed');
-                    if (stepLine2) stepLine2.classList.remove('completed');
-                    formFeedback.classList.add('hide');
-                }, 4000);
-
-            }, 1500);
+                    // Go back to step 1 panel after reset
+                    setTimeout(() => {
+                        navigateToStep(formStepPane3, formStepPane1, stepIndicator3, stepIndicator1, null);
+                        if (stepIndicator1) stepIndicator1.className = "step-dot active";
+                        if (stepIndicator2) stepIndicator2.className = "step-dot";
+                        if (stepIndicator3) stepIndicator3.className = "step-dot";
+                        if (stepLine1) stepLine1.classList.remove('completed');
+                        if (stepLine2) stepLine2.classList.remove('completed');
+                        formFeedback.classList.add('hide');
+                    }, 4000);
+                } else {
+                    showFeedback(formFeedback, 'Failed to submit quote request. Please email us directly.', 'error');
+                }
+            })
+            .catch(err => {
+                console.error('Error submitting form:', err);
+                showFeedback(formFeedback, 'Error submitting request. Please email us directly.', 'error');
+            });
         });
     }
 

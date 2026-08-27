@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | JPPL Digital Services Legacy & Leadership</title>
+    <meta name="description" content="Discover JPPL Digital Services legacy, corporate vision, and leadership. Learn how we support businesses with registrations, quality licensing, bidding, and web engineering. Operating under Jio Lite Products Private Limited.">
+    <meta name="keywords" content="JPPL legacy, corporate history Jio Lite Products, board of directors JPPL, about JPPL Digital Services, business compliance Kanpur, industrial advisory team">
+    <link rel="canonical" href="https://jioliteproducts.com/about.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jioliteproducts.com/about.html">
+    <meta property="og:title" content="About Us | JPPL Digital Services Legacy & Leadership">
+    <meta property="og:description" content="Explore our corporate journey, board of directors, and operational divisions built on a combined 45+ year legacy.">
+    <meta property="og:image" content="https://jioliteproducts.com/assets/about_hero_bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jioliteproducts.com/about.html">
+    <meta property="twitter:title" content="About Us | JPPL Digital Services Legacy & Leadership">
+    <meta property="twitter:description" content="Explore our corporate journey, board of directors, and operational divisions built on a combined 45+ year legacy.">
+    <meta property="twitter:image" content="https://jioliteproducts.com/assets/about_hero_bg.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-hero-section {
+            position: relative;
+            background: url('assets/about_hero_bg.png') no-repeat center center;
+            background-size: cover;
+            padding: 140px 0 120px;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 3px solid var(--color-gold);
+        }
+        .about-hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(15, 41, 66, 0.92) 30%, rgba(13, 30, 51, 0.96) 100%);
+            z-index: 1;
+        }
+        .about-hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+        .about-hero-title {
+            font-family: var(--font-heading);
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--color-white);
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        .about-hero-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 850px;
+            margin: 0 auto;
+            line-height: 1.6;
+            text-shadow: 0 1px 5px rgba(0,0,0,0.2);
+        }
+        .about-details-section {
+            padding: 90px 0;
+            background-color: var(--color-white);
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .about-main-text h2 {
+            font-family: var(--font-heading);
+            font-size: 2.25rem;
+            color: var(--color-secondary);
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+        .about-main-text p {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            color: var(--color-text-dark);
+            margin-bottom: 20px;
+        }
+        .vision-mission-values-section {
+            background-color: var(--color-bg-light);
+            padding: 90px 0;
+            border-top: 1px solid var(--color-border-light);
+            border-bottom: 1px solid var(--color-border-light);
+        }
+        .vmv-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .vmv-card {
+            background: var(--color-white);
+            border: 1px solid var(--color-border-light);
+            border-radius: 12px;
+            padding: 40px 30px;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+        .vmv-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background-color: var(--color-gold);
+            opacity: 0;
+            transition: opacity var(--transition-normal);
+        }
+        .vmv-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--color-gold-light);
+        }
+        .vmv-card:hover::before {
+            opacity: 1;
+        }
+        .vmv-icon {
+            font-size: 3rem;
+            color: var(--color-gold);
+            margin-bottom: 25px;
+            display: inline-block;
+        }
+        .vmv-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--color-secondary);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .vmv-desc {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: var(--color-text-muted);
+        }
+        .divisions-section {
+            padding: 90px 0;
+        }
+        .div-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .div-card {
+            background-color: var(--color-white);
+            border: 1px solid var(--color-border-light);
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            gap: 20px;
+            transition: all var(--transition-normal);
+        }
+        .div-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--color-gold-light);
+            transform: scale(1.01);
+        }
+        .div-icon {
+            font-size: 2rem;
+            color: var(--color-secondary);
+            background-color: rgba(14, 34, 61, 0.05);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all var(--transition-normal);
+        }
+        .div-card:hover .div-icon {
+            background-color: var(--color-secondary);
+            color: var(--color-gold);
+        }
+        .div-info h3 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            color: var(--color-secondary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .div-info p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--color-text-muted);
+        }
+        @media (max-width: 992px) {
+            .about-grid, .vmv-grid, .div-grid {
+                grid-template-columns: 1fr;
+            }
+            .about-hero-title {
+                font-size: 2.5rem;
+            }
+        }
+
+        /* TIMELINE COMPONENT STYLE SYSTEM */
+        .heritage-timeline-section {
+            background-color: #0F2942;
+            padding: 100px 0;
+            color: var(--color-white);
+            position: relative;
+            overflow: hidden;
+            border-top: 2px solid var(--color-gold-light);
+            border-bottom: 2px solid var(--color-gold-light);
+        }
+        .heritage-timeline-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 10% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .timeline-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 60px auto 0;
+            padding: 0 20px;
+        }
+        /* Vertical track line */
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 3px;
+            background: linear-gradient(to bottom, var(--color-gold-light) 0%, rgba(212, 175, 55, 0.3) 100%);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1.5px;
+        }
+        .timeline-block {
+            position: relative;
+            margin: 50px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .timeline-block:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        /* Timeline circular gold badge node */
+        .timeline-node-badge {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--color-gold);
+            border: 4px solid #0F2942;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            font-size: 1.2rem;
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+            transition: all var(--transition-normal);
+        }
+        .timeline-block:hover .timeline-node-badge {
+            background-color: var(--color-white);
+            color: var(--color-gold);
+            transform: translateX(-50%) scale(1.1);
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.8);
+        }
+        /* Content Card */
+        .timeline-card {
+            width: 45%;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: var(--shadow-md);
+            backdrop-filter: blur(10px);
+            transition: all var(--transition-normal);
+            position: relative;
+        }
+        .timeline-card::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+        .timeline-block:nth-child(odd) .timeline-card::after {
+            right: -10px;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent rgba(255, 255, 255, 0.08);
+        }
+        .timeline-block:nth-child(even) .timeline-card::after {
+            left: -10px;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent rgba(255, 255, 255, 0.08) transparent transparent;
+        }
+        .timeline-block:hover .timeline-card {
+            transform: translateY(-5px);
+            border-color: var(--color-gold-light);
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .timeline-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .timeline-card-year {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--color-white);
+            letter-spacing: 0.5px;
+        }
+        .timeline-card-title {
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--color-gold);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .timeline-card-desc {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Responsive styling for timeline */
+        @media (max-width: 768px) {
+            .timeline-container::after {
+                left: 30px;
+            }
+            .timeline-block {
+                flex-direction: column !important;
+                align-items: flex-start;
+                margin: 40px 0;
+            }
+            .timeline-node-badge {
+                left: 30px;
+                transform: translateX(-50%);
+            }
+            .timeline-block:hover .timeline-node-badge {
+                transform: translateX(-50%) scale(1.1);
+            }
+            .timeline-card {
+                width: calc(100% - 60px);
+                margin-left: 60px;
+            }
+            .timeline-card::after {
+                left: -10px !important;
+                border-width: 10px 10px 10px 0 !important;
+                border-color: transparent rgba(255, 255, 255, 0.08) transparent transparent !important;
+            }
+        }
+
+        /* Our Journey Strip */
+        .our-journey-strip {
+            margin-top: 60px;
+            text-align: center;
+            padding: 36px 24px;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.07) 0%, rgba(15, 41, 66, 0.3) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 16px;
+        }
+        .our-journey-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--color-gold, #d4af37);
+            margin-bottom: 14px;
+        }
+        .our-journey-path {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.92);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .our-journey-tagline {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.55);
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            .our-journey-path { font-size: 0.85rem; }
+        }
+
+        /* CORPORATE STRUCTURE STYLE SYSTEM */
+        .group-structure-section {
+            padding: 90px 0;
+            background: radial-gradient(circle at top right, rgba(15, 41, 66, 0.02) 0%, rgba(255, 255, 255, 1) 75%), 
+                        linear-gradient(135deg, rgba(0, 168, 150, 0.02) 0%, rgba(212, 175, 55, 0.02) 100%);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+            position: relative;
+            overflow: hidden;
+        }
+        .group-structure-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(0, 168, 150, 0.04) 0%, rgba(0, 168, 150, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .group-structure-section::after {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .group-tree {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60px;
+            position: relative;
+        }
+        .tree-parent {
+            position: relative;
+            z-index: 2;
+            margin-bottom: 50px;
+        }
+        .tree-parent::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            width: 2px;
+            height: 50px;
+            background-color: var(--color-primary);
+            transform: translateX(-50%);
+        }
+        .group-card {
+            background-color: var(--color-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(15, 41, 66, 0.05);
+            transition: all var(--transition-normal);
+            border: 1px solid var(--color-border);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .parent-card {
+            width: 380px;
+            max-width: 100%;
+            border: 1.5px solid rgba(15, 41, 66, 0.15);
+            border-top: 4px solid var(--color-primary);
+        }
+        .group-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(15, 41, 66, 0.1);
+        }
+        .parent-card:hover {
+            border-color: var(--color-primary);
+        }
+        .group-card-header {
+            padding: 25px 25px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            flex-grow: 1;
+        }
+        .parent-title {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            letter-spacing: 1px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 8px;
+            margin-bottom: 4px;
+        }
+        .parent-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 25%;
+            width: 50%;
+            height: 3px;
+            background-color: var(--color-primary);
+            border-radius: 2px;
+        }
+        .parent-subtitle {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--color-text-dark);
+        }
+        .entity-badge {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--color-text-muted);
+            background-color: rgba(15, 41, 66, 0.05);
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-top: 4px;
+        }
+        .group-card-footer {
+            padding: 15px 20px;
+            border-top: 1px solid rgba(15, 41, 66, 0.06);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            text-align: left;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: var(--color-text-dark);
+        }
+        .blue-icon {
+            background-color: rgba(15, 41, 66, 0.08);
+            color: var(--color-primary);
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+        .tree-children-container {
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+            width: 100%;
+            position: relative;
+        }
+        .tree-child {
+            width: 440px;
+            max-width: 100%;
+            position: relative;
+            display: flex;
+        }
+        .tree-child::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            width: 2px;
+            height: 50px;
+            background-color: var(--color-primary);
+            transform: translateX(-50%);
+        }
+        .tree-child:first-child::after {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            right: -30px;
+            height: 2px;
+            background-color: var(--color-primary);
+        }
+        .tree-child:last-child::after {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -30px;
+            right: 50%;
+            height: 2px;
+            background-color: var(--color-primary);
+        }
+        .child-card {
+            width: 100%;
+            border: 1.5px solid var(--color-border);
+        }
+        .child-card.green-theme {
+            border-top: 4px solid var(--color-teal);
+        }
+        .child-card.green-theme:hover {
+            border-color: var(--color-teal);
+        }
+        .child-card.orange-theme {
+            border-top: 4px solid var(--color-gold);
+        }
+        .child-card.orange-theme:hover {
+            border-color: var(--color-gold);
+        }
+        .child-card-header {
+            padding: 25px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            text-align: left;
+            flex-grow: 1;
+        }
+        .entity-icon-circle {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+        .green-icon {
+            background-color: rgba(0, 168, 150, 0.08);
+            color: var(--color-teal);
+        }
+        .orange-icon {
+            background-color: rgba(212, 175, 55, 0.08);
+            color: var(--color-gold);
+        }
+        .entity-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .child-title {
+            font-family: var(--font-heading);
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--color-secondary);
+        }
+        .child-subtitle {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--color-text-muted);
+        }
+        .footer-icon-check {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .green-check {
+            color: var(--color-teal);
+            background-color: rgba(0, 168, 150, 0.08);
+        }
+        .orange-check {
+            color: var(--color-gold);
+            background-color: rgba(212, 175, 55, 0.08);
+        }
+        .child-card.green-theme .group-card-footer {
+            background-color: rgba(0, 168, 150, 0.015);
+            border-top: 1px solid rgba(0, 168, 150, 0.08);
+        }
+        .child-card.orange-theme .group-card-footer {
+            background-color: rgba(212, 175, 55, 0.015);
+            border-top: 1px solid rgba(212, 175, 55, 0.08);
+        }
+        .footer-text {
+            margin: 0;
+            color: var(--color-text-dark);
+            line-height: 1.5;
+            font-size: 0.92rem;
+        }
+        .group-footer-banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: var(--color-white);
+            border: 1px solid var(--color-border);
+            box-shadow: 0 5px 20px rgba(15, 41, 66, 0.03);
+            padding: 15px 40px;
+            border-radius: 30px;
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 780px;
+            width: 100%;
+            transition: all var(--transition-normal);
+        }
+        .group-footer-banner:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(15, 41, 66, 0.06);
+            border-color: rgba(15, 41, 66, 0.15);
+        }
+        .banner-entity {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--color-primary);
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+        .banner-icon {
+            font-size: 1.2rem;
+            color: var(--color-primary);
+        }
+        .banner-divider {
+            width: 1.5px;
+            height: 25px;
+            background-color: var(--color-border);
+        }
+        .banner-text {
+            color: var(--color-text-muted);
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 992px) {
+            .tree-children-container {
+                gap: 30px;
+            }
+            .tree-child {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .group-tree {
+                margin-top: 30px;
+            }
+            .tree-parent {
+                margin-bottom: 40px;
+            }
+            .tree-parent::after {
+                height: 40px;
+                bottom: -40px;
+            }
+            .tree-children-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                padding-top: 0;
+            }
+            .tree-child {
+                width: 100%;
+                max-width: 440px;
+            }
+            .tree-child::before {
+                height: 40px;
+                top: -40px;
+            }
+            .tree-child::after, .tree-child:first-child::after, .tree-child:last-child::after {
+                display: none;
+            }
+            .group-footer-banner {
+                flex-direction: column;
+                border-radius: 15px;
+                padding: 20px;
+                gap: 10px;
+                text-align: center;
+            }
+            .banner-divider {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="about-page">
+
+    <!-- TOP CONTACT BAR -->
+    <div class="top-bar" id="topBar">
+        <div class="container top-bar-container">
+            <div class="top-bar-contacts">
+                <a href="tel:+919369288078" class="contact-link"><i class="fa-solid fa-phone phone-icon"></i> +91 9369288078</a>
+                <span class="separator">|</span>
+                <a href="mailto:jioliteproducts@gmail.com" class="contact-link"><i class="fa-solid fa-envelope envelope-icon"></i> jioliteproducts@gmail.com</a>
+                <span class="separator">|</span>
+                <span class="contact-link"><i class="fa-solid fa-location-dot location-icon"></i> Kanpur, Uttar Pradesh</span>
+            </div>
+            <div class="top-bar-cta">
+                <a href="#quote-section" class="btn btn-gold btn-small animate-pulse">Enquire Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- STICKY NAVBAR -->
+    <header class="main-header" id="mainHeader">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-area" id="logoLink">
+                <img src="assets/logo.png" alt="JPPL Digital Services Logo" class="logo-img">
+            </a>
+
+            <!-- Mobile Navigation Menu Toggle -->
+            <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link active">About Us</a></li>
+                    
+                    <!-- Mega Menu Dropdown -->
+                    <li class="nav-item has-mega-menu">
+                        <a href="services.html" class="nav-link dropdown-trigger">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+                        <div class="mega-menu" id="megaMenu">
+                            <div class="container mega-menu-grid">
+                                <!-- Col 1: IT Services -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-laptop-code col-icon"></i> IT Services</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/custom-software-app-development.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Software & App Dev</a></li>
+                                        <li><a href="services/erp-crm-solutions.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ERP & CRM Portals</a></li>
+                                        <li><a href="services/cloud-cybersecurity-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Cloud & Cyber Security</a></li>
+                                        <li><a href="services/website-development-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Website Engineering</a></li>
+                                        <li><a href="services/digital-marketing-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Digital Marketing</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 2: Legal Setup -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-briefcase col-icon"></i> Legal Setup</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/gst-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> GST Registration Service</a></li>
+                                        <li><a href="services/msme-udyam-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> MSME / Udyam Service</a></li>
+                                        <li><a href="services/fssai-food-license.html"><i class="fa-solid fa-chevron-right link-bullet"></i> FSSAI Licensing Service</a></li>
+                                        <li><a href="services/iec-import-export-code.html"><i class="fa-solid fa-chevron-right link-bullet"></i> IEC Import Export Service</a></li>
+                                        <li><a href="services/trademark-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Trademark Registration Service</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 3: Licensing -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-certificate col-icon"></i> Quality & Licensing</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/iso-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ISO Certification Service</a></li>
+                                        <li><a href="services/zed-green-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ZED Certification Service</a></li>
+                                        <li><a href="services/gem-portal-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> GeM Portal Registration Service</a></li>
+                                        <li><a href="services/bis-standards-certification.html"><i class="fa-solid fa-chevron-right link-bullet"></i> BIS Certification Service</a></li>
+                                        <li><a href="services/trade-licence.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Trade License Service</a></li>
+                                        <li><a href="services/factory-licence.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Factory License Service</a></li>
+                                        <li><a href="services/solar-energy-service.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Solar Energy Service</a></li>
+                                        <li><a href="services/epr-battery-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Battery EPR Service</a></li>
+                                        <li><a href="services/epr-tyre-registration.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Tyre EPR Service</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 4: Capital Advisory -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-landmark col-icon"></i> Capital Advisory</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/government-tender-consultancy.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Government Tender Submission Service</a></li>
+                                        <li><a href="services/dpr-project-report-preparation.html"><i class="fa-solid fa-chevron-right link-bullet"></i> DPR & Bank Projects</a></li>
+                                        <li><a href="services/startup-india-recognition.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Startup India Recognition Service</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Col 5: Specialized -->
+                                <div class="mega-menu-col">
+                                    <h4 class="mega-menu-title"><i class="fa-solid fa-handshake col-icon"></i> Specialized Services</h4>
+                                    <ul class="mega-menu-links">
+                                        <li><a href="services/women-entrepreneur-consultant.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Women Mentorship</a></li>
+                                        <li><a href="services/financial-advisory-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Financial Advisory</a></li>
+                                        <li><a href="services/healthcare-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Corporate Health</a></li>
+                                        <li><a href="services/lab-corp-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Lab Diagnostics (NABL)</a></li>
+                                        <li><a href="services/agriculture-business-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Agriculture Services</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services Hub</a></li>
+                    <li class="nav-item"><a href="#quote-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB HERO -->
+    <section class="about-hero-section">
+        <div class="about-hero-overlay"></div>
+        <div class="container">
+            <h1 class="about-hero-title">Pioneering Operations & Institutional Trust</h1>
+            <p class="about-hero-subtitle">Delivering PAN India corporate legal compliance, certified quality control licensing, strategic digital engineering, and specialized agriculture & healthcare services.</p>
+        </div>
+    </section>
+
+    <!-- DETAILS SECTION -->
+    <section class="about-details-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-main-text">
+                    <h2>Bridging Compliance and Growth Ecosystems</h2>
+                    <p>JPPL Digital Services (operating under Jio Lite Products Private Limited) is India's leading corporate service provider. We deliver direct execution of legal compliance, secure quality standard certifications, compile technical project bids, engineer high-performance web ecosystems, and coordinate healthcare logistics. We act as a single-window partner for startups, MSMEs, manufacturing plants, and agricultural exporters seeking strict adherence to statutory frameworks.</p>
+                    <p>Based in Kanpur, Uttar Pradesh, our team draws from a combined 45+ year legacy of operational governance and industrial leadership. We believe that corporate scalability requires a solid legal foundation, certified quality systems, optimized bank project bidding, and modern digital visibility. By combining these essential domains, we eliminate regulatory bottlenecks and empower businesses to scale securely with zero friction.</p>
+                </div>
+                <div class="about-visual">
+                    <img src="assets/about_synergy_graphic.png" alt="JPPL Corporate Synergy" class="about-img" style="border-radius: 8px; box-shadow: var(--shadow-md); width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JPPL GROUP OF COMPANIES (CORPORATE STRUCTURE) -->
+    <section class="group-structure-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">OUR GROUP</span>
+                <h2 class="section-title">JPPL Group of Companies</h2>
+                <p class="section-desc max-width-600">Jio Lite Products Private Limited (JPPL) is the parent company driving innovation and excellence. Our group is strengthened by two specialized subsidiaries working together to deliver technology-driven solutions and professional services.</p>
+            </div>
+
+            <div class="group-tree">
+                <!-- Parent Card: JPPL -->
+                <div class="tree-parent">
+                    <div class="group-card parent-card">
+                        <div class="group-card-header">
+                            <h3 class="parent-title">JPPL</h3>
+                            <span class="parent-subtitle">Jio Lite Products Private Limited</span>
+                            <span class="entity-badge">(Parent Company)</span>
+                        </div>
+                        <div class="group-card-footer">
+                            <div class="blue-icon">
+                                <i class="fa-solid fa-building-columns"></i>
+                            </div>
+                            <p class="footer-text">Leading the way in innovation, growth, and value creation across industries.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Children Subsidiaries -->
+                <div class="tree-children-container">
+                    <!-- Child 1: JPPL Info Tech -->
+                    <div class="tree-child child-it">
+                        <div class="group-card child-card green-theme">
+                            <div class="child-card-header">
+                                <div class="entity-icon-circle green-icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="entity-info">
+                                    <h3 class="child-title">JPPL Info Tech</h3>
+                                    <span class="child-subtitle">Technology Solutions Division</span>
+                                </div>
+                            </div>
+                            <div class="group-card-footer">
+                                <div class="footer-icon-check green-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <p class="footer-text">Delivering innovative IT solutions including software development, web, mobile apps, ERP, cloud, AI, cybersecurity, and digital transformation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Child 2: JPPL Service and Solution -->
+                    <div class="tree-child child-services">
+                        <div class="group-card child-card orange-theme">
+                            <div class="child-card-header">
+                                <div class="entity-icon-circle orange-icon">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <div class="entity-info">
+                                    <h3 class="child-title">JPPL Service and Solution</h3>
+                                    <span class="child-subtitle">Business Services Division</span>
+                                </div>
+                            </div>
+                            <div class="group-card-footer">
+                                <div class="footer-icon-check orange-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </div>
+                                <p class="footer-text">Providing professional services including consulting, IT support, staffing, facility management, training, and end-to-end business solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Vision Banner -->
+            <div class="group-footer-banner">
+                <div class="banner-entity">
+                    <i class="fa-solid fa-people-group banner-icon"></i>
+                    <span class="banner-bold">Three Entities. One Vision.</span>
+                </div>
+                <div class="banner-divider"></div>
+                <div class="banner-text">Innovation. Reliability. Excellence.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISION, MISSION, VALUES -->
+    <section class="vision-mission-values-section">
+        <div class="container">
+            <div class="vmv-grid">
+                <!-- Vision -->
+                <div class="vmv-card">
+                    <div class="vmv-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h3 class="vmv-title">Corporate Vision</h3>
+                    <p class="vmv-desc">To be recognized as India's most authoritative corporate service provider by creating a seamless compliance ecosystem where legal safety, quality standards, and digital innovation converge to drive stable economic progress.</p>
+                </div>
+                <!-- Mission -->
+                <div class="vmv-card">
+                    <div class="vmv-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3 class="vmv-title">Corporate Mission</h3>
+                    <p class="vmv-desc">To simplify the business lifecycle for Indian entrepreneurs through reliable execution of licenses, precise financial structuring, NABL quality audits, custom web development, and agricultural business services.</p>
+                </div>
+                <!-- Values -->
+                <div class="vmv-card">
+                    <div class="vmv-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3 class="vmv-title">Core Principles</h3>
+                    <p class="vmv-desc">Meticulous compliance precision, client data integrity, transparency in government liaison, and a constant drive toward digital engineering supremacy for sustainable industrial development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HERITAGE & LEADERSHIP TIMELINE -->
+    <section class="heritage-timeline-section" id="historical-journey">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle text-gold-accent">OUR HERITAGE</span>
+                <h2 class="section-title text-white" style="color: aliceblue;">Historical Journey & Board of Directors</h2>
+                <p class="section-desc max-width-600 text-white-muted">To establish deep institutional trust, we celebrate a multi-decade legacy of execution, governance, and industrial leadership.</p>
+            </div>
+
+            <div class="timeline-container">
+
+                <!-- Node 1: 1979 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">1979</span>
+                        </div>
+                        <h4 class="timeline-card-title">The Beginning</h4>
+                        <p class="timeline-card-desc">Vijay Kumar Gupta entered the business world under the guidance of his father, <strong>Shri Ramswaroop Laharia Ji</strong>. With a strong desire to understand the intricacies of business, he embarked on a journey of entrepreneurship, laying the foundation for a lasting business legacy.</p>
+                    </div>
+                </div>
+
+                <!-- Node 2: 1981–1985 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">1981 - 1985</span>
+                        </div>
+                        <h4 class="timeline-card-title">Market Penetration &amp; Expansion</h4>
+                        <p class="timeline-card-desc">The journey began in Kanpur, where Vijay Kumar Gupta personally spearheaded the marketing efforts through his dedication and perseverance. He travelled extensively, covering every street and locality to ensure comprehensive market penetration. After successfully establishing the distribution of edible oil and vanaspati ghee products among retailers across Kanpur, he expanded operations throughout Uttar Pradesh. Through consistent efforts and meticulous market development, he ultimately achieved comprehensive coverage across the entire state—mapping the market not only area-wise but also retailer-by-retailer.</p>
+                    </div>
+                </div>
+
+                <!-- Node 3: 1985 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">1985</span>
+                        </div>
+                        <h4 class="timeline-card-title">Establishment of VIJAY BROTHERS</h4>
+                        <p class="timeline-card-desc">He established <strong>VIJAY BROTHERS</strong> as a proprietorship business engaged in merchant trading and order supply — marking an important step in his entrepreneurial journey and establishing his independent footprint in the trade sector.</p>
+                    </div>
+                </div>
+
+                <!-- Node 4: 1997 - 2002 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">1997 - 2002</span>
+                        </div>
+                        <h4 class="timeline-card-title">Entry into Manufacturing — A.V. Agro Products Pvt. Ltd. as a Founder Director</h4>
+                        <p class="timeline-card-desc">With a vision to enter the manufacturing sector, Vijay Kumar Gupta became the Founder-Director of <strong>A.V. Agro Products Private Limited</strong> and established an edible oil refinery.</p>
+                    </div>
+                </div>
+
+                <!-- Node 5: 2004 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2004</span>
+                        </div>
+                        <h4 class="timeline-card-title">Acquisition &amp; Expansion — Vaibhav Edibles Private Limited</h4>
+                        <p class="timeline-card-desc">Acquired <strong>Vaibhav Edibles Private Limited</strong> and expanded its production capacity of Edible Oils, strengthening the group's presence in the edible oil industry.</p>
+                    </div>
+                </div>
+
+                <!-- Node 6: 2006 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2006</span>
+                        </div>
+                        <h4 class="timeline-card-title">Entry of Vishal Gupta - Engineering Modernisation</h4>
+                        <p class="timeline-card-desc">Vishal Gupta joined the organisation as an <strong>Engineering Specialist</strong>. Leveraging his technical expertise and strategic vision, he played a pivotal role in modernising the plant and creating a strong foundation for future expansion. </p>
+                    </div>
+                </div>
+
+                <!-- Node 7: 2009 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2009</span>
+                        </div>
+                        <h4 class="timeline-card-title">Brand Launch — Entry into Marketing</h4>
+                        <p class="timeline-card-desc">The group decided to enter the marketing sector and launched the <strong>JIOLITE Brand</strong> — marking a major milestone in establishing a direct, consumer-focused presence.</p>
+                    </div>
+                </div>
+
+                <!-- Node 8: 2014–2016 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2014–16</span>
+                        </div>
+                        <h4 class="timeline-card-title">Resilience &amp; Transformation — Rise from the Ashes</h4>
+                        <p class="timeline-card-desc">On <strong>April 25, 2014</strong>, the Vaibhav Edibles factory was devastated by a massive fire that completely destroyed the plant. Despite this setback, the organisation demonstrated exceptional resilience. In <strong>2015–16</strong>, construction of a new, modern plant with <strong>twice the production capacity</strong> was initiated — turning a major challenge into an opportunity for transformation and growth.</p>
+                    </div>
+                </div>
+
+                <!-- Node 9: 2018 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2018</span>
+                        </div>
+                        <h4 class="timeline-card-title">Sonam Vishal Gupta — Financial &amp; Institutional Strengthening</h4>
+                        <p class="timeline-card-desc">Sonam Vishal Gupta brought her expertise to strengthen the organisation's <strong>institutional framework, organisational systems, and financial administration</strong> — contributing to a more structured, disciplined, and sustainable approach to growth.</p>
+                    </div>
+                </div>
+
+                <!-- Node 10: 2024 -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-landmark"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">2024</span>
+                        </div>
+                        <h4 class="timeline-card-title">45-Year Legacy &amp; JPPL Incorporation</h4>
+                        <p class="timeline-card-desc">After more than <strong>45 years of entrepreneurial experience</strong>, execution, and industry expertise, the leadership team continued to drive expansion across Animal Nutrition, FMCG, and Business &amp; Digital Services. On <strong>11 April 2024</strong>, this rich legacy entered a new chapter with the official incorporation of <strong>Jiolite Products Private Limited</strong>. Under the leadership of Vijay Kumar Gupta and Vishal Gupta, the organisation is committed to driving the next phase of growth through <em>technology, IT solutions, and digital marketing.</em></p>
+                    </div>
+                </div>
+
+                <!-- Node 11: Today -->
+                <div class="timeline-block">
+                    <div class="timeline-node-badge">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <span class="timeline-card-year">Today</span>
+                        </div>
+                        <h4 class="timeline-card-title">Launch of JPPL Digital Services</h4>
+                        <p class="timeline-card-desc">Building on a foundation of <strong>business experience and regulatory expertise</strong>, the group has launched <em>JPPL Digital Services</em> — an integrated, nationwide service platform delivering practical IT and business solutions across India.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Our Journey Tagline Strip -->
+            <div class="our-journey-strip">
+                <p class="our-journey-label">Our Journey</p>
+                <p class="our-journey-path">45+ Years of Legacy &nbsp;&rarr;&nbsp; Manufacturing &nbsp;&rarr;&nbsp; FMCG &nbsp;&rarr;&nbsp; Animal Nutrition &nbsp;&rarr;&nbsp; Technology &nbsp;&rarr;&nbsp; Digital Transformation</p>
+                <p class="our-journey-tagline"><em>From experience to innovation. From legacy to the future.</em></p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- DIVISIONS OVERVIEW -->
+    <section class="divisions-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">OUR CAPABILITIES</span>
+                <h2 class="section-title">Five Core Operational Divisions</h2>
+                <p class="section-desc max-width-600">JPPL operations are divided into five core verticals, each managed by senior experts and industry specialists.</p>
+            </div>
+            
+            <div class="div-grid">
+                <!-- Div 1 -->
+                <div class="div-card">
+                    <div class="div-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="div-info">
+                        <h3>Legal Setup & Registrations</h3>
+                        <p>Handling critical corporate setups including GST Registration Service, MSME Udyam credentials, FSSAI Licensing Service, Import Export Codes (IEC), and Trademark protection filings.</p>
+                    </div>
+                </div>
+                <!-- Div 2 -->
+                <div class="div-card">
+                    <div class="div-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="div-info">
+                        <h3>Quality & Licensing</h3>
+                        <p>Bridging industrial quality benchmarks through ISO Certifications, ZED Green Manufacturing framework alignment, GeM Portal setups, BIS Standards, and local Municipal Trade/Factory Licenses.</p>
+                    </div>
+                </div>
+                <!-- Div 3 -->
+                <div class="div-card">
+                    <div class="div-icon"><i class="fa-solid fa-landmark"></i></div>
+                    <div class="div-info">
+                        <h3>Bidding & Capital Projects</h3>
+                        <p>Compiling tender portfolios, preparing bank-grade Detailed Project Reports (DPR), and securing Startup India frameworks.</p>
+                    </div>
+                </div>
+                <!-- Div 4 -->
+                <div class="div-card">
+                    <div class="div-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="div-info">
+                        <h3>Digital Engineering</h3>
+                        <p>Engineering custom website development, API integrations, search engine optimization, and targeted corporate campaigns.</p>
+                    </div>
+                </div>
+                <!-- Div 5 -->
+                <div class="div-card" style="grid-column: span 2;">
+                    <div class="div-icon" style="background-color: rgba(212, 175, 55, 0.1); color: var(--color-gold);"><i class="fa-solid fa-seedling"></i></div>
+                    <div class="div-info">
+                        <h3>Core Welfare & Healthcare Operations</h3>
+                        <p>Our newly established division handles specialized service execution. This includes APEDA agricultural export compliance, organic farming certification support, soil health verification, alongside wellness coordination (LCS, HS) and female entrepreneurship mentorship (WEC).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE LEAD CAPTURE & FOOTER SECTION -->
+    <section class="quote-section" id="quote-section">
+        <div class="container">
+            <div class="quote-container-grid">
+                <!-- Form Box -->
+                <div class="quote-form-wrapper scroll-fade">
+                    <h2 class="quote-heading">Request Custom Quote</h2>
+                    <p class="quote-subheading">Select services you need and we will prepare a specialized feasibility plan.</p>
+                    
+                    <!-- Multi-step form tracker -->
+                    <div class="form-steps-indicator">
+                        <div class="step-dot active" id="stepIndicator1"><span>1</span> Services</div>
+                        <div class="step-line" id="stepLine1"></div>
+                        <div class="step-dot" id="stepIndicator2"><span>2</span> Contact</div>
+                        <div class="step-line" id="stepLine2"></div>
+                        <div class="step-dot" id="stepIndicator3"><span>3</span> Finalize</div>
+                    </div>
+
+                    <form id="multiStepQuoteForm" action="#" method="POST">
+                        <!-- STEP 1: SERVICE CHOICE -->
+                        <div class="form-step-pane active" id="formStepPane1">
+                            <h4 class="step-pane-title">Choose Required Services (Select all that apply)</h4>
+                            <div class="checkbox-grid">
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Legal Setup</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="GST Registration">
+                                        <span class="checkmark"></span> GST Registration
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="MSME/Udyam Registration">
+                                        <span class="checkmark"></span> MSME / Udyam
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="FSSAI Registration">
+                                        <span class="checkmark"></span> FSSAI Food License
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="IEC Import Export Code">
+                                        <span class="checkmark"></span> Import Export (IEC)
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Trademark Registration">
+                                        <span class="checkmark"></span> Trademark (TM/®)
+                                    </label>
+                                </div>
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Quality & Licensing</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="ISO Certification">
+                                        <span class="checkmark"></span> ISO Certification
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="ZED Certification">
+                                        <span class="checkmark"></span> ZED Green Cert
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="GeM Portal Registration">
+                                        <span class="checkmark"></span> GeM Registration
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="BIS Certification">
+                                        <span class="checkmark"></span> BIS Certification
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Trade License">
+                                        <span class="checkmark"></span> Trade License
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Factory License">
+                                        <span class="checkmark"></span> Factory License
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Solar Energy Service">
+                                        <span class="checkmark"></span> Solar Energy Service
+                                    </label>
+                                </div>
+                                <div class="checkbox-group-block">
+                                    <h5 class="checkbox-block-title">Other Verticals</h5>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Government Tender Submission">
+                                        <span class="checkmark"></span> Government Tender Submission
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Bank DPR Project Reports">
+                                        <span class="checkmark"></span> DPR Preparation
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Startup India Framework">
+                                        <span class="checkmark"></span> Startup India
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Website Engineering">
+                                        <span class="checkmark"></span> Web Engineering
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Digital Marketing Campaigns">
+                                        <span class="checkmark"></span> Digital Marketing
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Women Entrepreneur Framework">
+                                        <span class="checkmark"></span> Women Mentorship
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="Agriculture Business Services">
+                                        <span class="checkmark"></span> Agriculture Services
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-primary" id="btnNext1">Continue to Contact Info <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 2: CONTACT INFO -->
+                        <div class="form-step-pane" id="formStepPane2">
+                            <h4 class="step-pane-title">Contact & Professional Details</h4>
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="contactName" class="form-label">Full Name *</label>
+                                    <input type="text" id="contactName" name="contactName" class="form-input" placeholder="e.g., Ramesh Kumar">
+                                </div>
+                                <div class="form-group flex-1">
+                                    <label for="contactPhone" class="form-label">Phone Number *</label>
+                                    <input type="tel" id="contactPhone" name="contactPhone" class="form-input" placeholder="e.g., +91 93692 88078">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group flex-1">
+                                    <label for="contactEmail" class="form-label">Email Address *</label>
+                                    <input type="email" id="contactEmail" name="contactEmail" class="form-input" placeholder="e.g., ramesh@example.com">
+                                </div>
+                                <div class="form-group flex-1">
+                                    <label for="contactLocation" class="form-label">Business City / Location *</label>
+                                    <input type="text" id="contactLocation" name="contactLocation" class="form-input" placeholder="e.g., Kanpur, Uttar Pradesh">
+                                </div>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary" id="btnPrev2"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                <button type="button" class="btn btn-primary" id="btnNext2">Review & Write Message <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- STEP 3: MESSAGE & SUBMIT -->
+                        <div class="form-step-pane" id="formStepPane3">
+                            <h4 class="step-pane-title">Brief Your Requirement</h4>
+                            <div class="form-group">
+                                <label for="contactMessage" class="form-label">Specific requirements or questions (Optional)</label>
+                                <textarea id="contactMessage" name="contactMessage" rows="5" class="form-textarea" placeholder="Provide additional details regarding your setup, scale, or deadlines..."></textarea>
+                            </div>
+                            <div class="form-navigation">
+                                <button type="button" class="btn btn-secondary" id="btnPrev3"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                                <button type="submit" class="btn btn-gold" id="btnSubmitQuote">Submit Final Request <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="multiStepFormFeedback" class="form-feedback hide"></div>
+                </div>
+
+                <!-- Contact Info & Map Box -->
+                <div class="quote-info-wrapper scroll-fade">
+                    <div class="info-block">
+                        <h3 class="info-block-title">Corporate Headquarters</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-map-location-dot block-icon"></i> Kanpur, Uttar Pradesh, India</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3 class="info-block-title">Call or Message Us</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-phone block-icon"></i> <a href="tel:+919369288078">+91 9369288078</a></p>
+                        <p class="info-block-detail"><i class="fa-solid fa-envelope block-icon"></i> <a href="mailto:jioliteproducts@gmail.com">jioliteproducts@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3 class="info-block-title">Operational Working Hours</h3>
+                        <p class="info-block-detail"><i class="fa-solid fa-clock block-icon"></i> Monday - Saturday: 10:00 AM - 07:00 PM</p>
+                    </div>
+
+                    <!-- Kanpur Map Embed -->
+                    <div class="map-embed-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114312.44390610368!2d80.26421453303668!3d26.44741282276538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1719112454652!5m2!1sen!2sin" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER BRANDING -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-col-brand">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="JPPL Digital Services Logo" class="footer-logo-img">
+                </div>
+                <p class="footer-brand-tagline">JPPL Digital Services - Your Trusted Partner for End-to-End Business Solutions.</p>
+                <p class="footer-brand-desc">Operating under Jio Lite Products Private Limited. We execute your legal registrations, secure industrial licensing, submit public bids, engineer web ecosystems, and coordinate healthcare logistics.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col-links">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+                    <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Services Hub</a></li>
+                    <li><a href="#quote-section"><i class="fa-solid fa-angle-right"></i> Request Quote</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-links">
+                <h4 class="footer-title">Our Verticals</h4>
+                <ul class="footer-links-list">
+                    <li><a href="services.html?cat=legal"><i class="fa-solid fa-angle-right"></i> Business Setup</a></li>
+                    <li><a href="services.html?cat=quality"><i class="fa-solid fa-angle-right"></i> Quality Licensing</a></li>
+                    <li><a href="services.html?cat=capital"><i class="fa-solid fa-angle-right"></i> Capital Advisory</a></li>
+                    <li><a href="services.html?cat=digital"><i class="fa-solid fa-angle-right"></i> Digital Growth</a></li>
+                    <li><a href="services.html?cat=specialized"><i class="fa-solid fa-angle-right"></i> Core Welfare & Healthcare</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col-contacts">
+                <h4 class="footer-title">Direct Contacts</h4>
+                <p class="footer-contact-item"><i class="fa-solid fa-phone"></i> +91 9369288078, +91 9336274060</p>
+                <p class="footer-contact-item"><i class="fa-solid fa-envelope"></i> jioliteproducts@gmail.com</p>
+                <p class="footer-contact-item"><i class="fa-solid fa-location-dot"></i> Kanpur, Uttar Pradesh, India</p>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+            <div class="container copyright-container">
+                <p>&copy; 2026 JPPL Digital Services. All rights reserved. Operating under legal corporate frameworks.</p>
+                <p>Designed and Engrained for Supreme Corporate Authority.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

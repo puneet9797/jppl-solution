@@ -1,0 +1,12 @@
+{
+  "name": "jppl-website",
+  "version": "1.0.0",
+  "description": "JPPL Digital Services Website",
+  "main": "index.html",
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "vercel": "^54.18.5"
+  }
+}

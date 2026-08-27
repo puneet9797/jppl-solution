@@ -1,12 +1,14 @@
 /* ==========================================
-   JPPL SOLUTIONS - CORE DESIGN SYSTEM
+   JPPL - CORE DESIGN SYSTEM
    Vanilla CSS Styling | Premium Corporate Tone
    ========================================== */
 
 /* 1. CSS VARIABLES & THEMING */
 :root {
     --color-primary: #0F2942;      /* Deep Trust Blue */
+    --color-secondary: #0E223D;    /* Deep Dark Blue for headings/icons */
     --color-gold: #D4AF37;         /* Regal Gold / Amber Accent */
+    --color-gold-light: #F3D078;   /* Lighter Premium Gold accent */
     --color-teal: #00A896;         /* Clean Modern Teal */
     --color-white: #FFFFFF;        /* Crisp White Background */
     --color-light-bg: #F8FAFC;     /* Off-White Section Background */

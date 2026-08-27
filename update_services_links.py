@@ -12,6 +12,7 @@ mapping = {
     "bis": "bis-standards-certification",
     "trade": "trade-licence",
     "factory": "factory-licence",
+    "solar": "solar-energy-service",
     "tender": "government-tender-consultancy",
     "dpr": "dpr-project-report-preparation",
     "startup": "startup-india-recognition",
@@ -20,7 +21,10 @@ mapping = {
     "women": "women-entrepreneur-consultant",
     "financial": "financial-advisory-services",
     "healthcare": "healthcare-services",
-    "lab": "lab-corp-services"
+    "lab": "lab-corp-services",
+    "agriculture": "agriculture-business-services",
+    "epr-battery": "epr-battery-registration",
+    "epr-tyre": "epr-tyre-registration"
 }
 
 if not os.path.exists("services.html"):
