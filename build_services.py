@@ -397,7 +397,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{service_name} | JPPL Digital Services</title>
+    <title>{service_name} | Lahariya Solution and Services</title>
     <meta name="description" content="{overview_brief}">
     <meta name="keywords" content="{meta_keywords}">
     <link rel="canonical" href="https://jioliteproducts.com/services/{slug}.html">
@@ -405,14 +405,14 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jioliteproducts.com/services/{slug}.html">
-    <meta property="og:title" content="{service_name} | JPPL Digital Services">
+    <meta property="og:title" content="{service_name} | Lahariya Solution and Services">
     <meta property="og:description" content="{overview_brief}">
     <meta property="og:image" content="https://jioliteproducts.com/assets/hero_banner.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://jioliteproducts.com/services/{slug}.html">
-    <meta property="twitter:title" content="{service_name} | JPPL Digital Services">
+    <meta property="twitter:title" content="{service_name} | Lahariya Solution and Services">
     <meta property="twitter:description" content="{overview_brief}">
     <meta property="twitter:image" content="https://jioliteproducts.com/assets/hero_banner.png">
 
@@ -447,7 +447,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     <header class="main-header" id="mainHeader">
         <div class="container nav-container">
             <a href="../index.html" class="logo-area" id="logoLink">
-                <img src="../assets/logo.png" alt="JPPL Logo" class="logo-img">
+                <img src="../assets/logo.png" alt="Lahariya Logo" class="logo-img">
             </a>
 
             <!-- Mobile Navigation Menu Toggle -->
@@ -829,9 +829,9 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
         <div class="container footer-container">
             <div class="footer-col-brand">
                 <div class="footer-logo">
-                    <img src="../assets/logo.png" alt="JPPL Logo" class="footer-logo-img">
+                    <img src="../assets/logo.png" alt="Lahariya Logo" class="footer-logo-img">
                 </div>
-                <p class="footer-brand-tagline">JPPL Digital Services - Your Trusted Partner for End-to-End Business Solutions.</p>
+                <p class="footer-brand-tagline">Lahariya Solution and Services - Your Trusted Partner for End-to-End Business Solutions.</p>
                 <p class="footer-brand-desc">Operating under Jio Lite Products Private Limited. We execute your legal registrations, secure industrial licensing, submit public bids, engineer web ecosystems, and coordinate healthcare logistics.</p>
                 <div class="social-links">
                     <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -872,7 +872,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
         
         <div class="footer-copyright">
             <div class="container copyright-container">
-                <p>&copy; 2026 JPPL Digital Services. All rights reserved. Operating under legal corporate frameworks.</p>
+                <p>&copy; 2026 Lahariya Solution and Services. All rights reserved. Operating under legal corporate frameworks.</p>
                 <p>Designed and Engrained for Supreme Corporate Authority.</p>
             </div>
         </div>
