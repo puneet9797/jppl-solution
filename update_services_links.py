@@ -17,6 +17,7 @@ mapping = {
     "dpr": "dpr-project-report-preparation",
     "startup": "startup-india-recognition",
     "web": "website-development-services",
+    "ecommerce": "ecommerce-web-development",
     "marketing": "digital-marketing-services",
     "women": "women-entrepreneur-consultant",
     "financial": "financial-advisory-services",

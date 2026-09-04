@@ -317,6 +317,20 @@ services_data = [
         "checklist_content": "Includes Social Media Management (SMM), Search Engine Optimization (SEO), PPC Ad Campaign runs, Content design, and analytics mapping.",
         "related": ["website-development-services", "financial-advisory-services", "trademark-registration"]
     },
+    {
+        "category": "IT Services",
+        "cat_slug": "digital",
+        "name": "E-commerce Web Development Service",
+        "slug": "ecommerce-web-development",
+        "icon": "fa-cart-shopping",
+        "image": "https://images.unsplash.com/photo-1556742049-0a67923004a3?auto=format&fit=crop&w=800&q=80",
+        "tagline": "We design and build secure, scalable, high-converting e-commerce storefronts & online shopping portals.",
+        "overview": "We engineer end-to-end e-commerce solutions including custom online stores, Shopify/WooCommerce integrations, payment gateway setups (Razorpay, Stripe), inventory synchronization, secure cart architectures, and mobile-optimized shopping experiences.",
+        "value": "Drives online revenue, expands business reach globally, provides seamless omnichannel shopping experiences, and ensures secure multi-currency payment processing.",
+        "checklist_type": "Core E-Commerce Features",
+        "checklist_content": "Store UI/UX Design, Shopping Cart & Checkout, Payment Gateway (Razorpay/Stripe) Integration, Product & Inventory Management, Order Tracking, SSL Security & PCI-DSS Compliance.",
+        "related": ["website-development-services", "custom-software-app-development", "digital-marketing-services"]
+    },
     
     # Category E: Core Welfare & Healthcare Operations
     {
@@ -474,6 +488,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
                                         <li><a href="erp-crm-solutions.html"><i class="fa-solid fa-chevron-right link-bullet"></i> ERP & CRM Portals</a></li>
                                         <li><a href="cloud-cybersecurity-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Cloud & Cyber Security</a></li>
                                         <li><a href="website-development-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Website Engineering</a></li>
+                                        <li><a href="ecommerce-web-development.html"><i class="fa-solid fa-chevron-right link-bullet"></i> E-commerce Web Dev</a></li>
                                         <li><a href="digital-marketing-services.html"><i class="fa-solid fa-chevron-right link-bullet"></i> Digital Marketing</a></li>
                                     </ul>
                                 </div>
@@ -734,6 +749,10 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
                                         <span class="checkmark"></span> Web Engineering
                                     </label>
                                     <label class="custom-checkbox">
+                                        <input type="checkbox" name="services" value="E-commerce Web Development" {checked_ecommerce}>
+                                        <span class="checkmark"></span> E-commerce Web Dev
+                                    </label>
+                                    <label class="custom-checkbox">
                                         <input type="checkbox" name="services" value="Digital Marketing Campaigns" {checked_marketing}>
                                         <span class="checkmark"></span> Digital Marketing
                                     </label>
@@ -941,6 +960,7 @@ for svc in services_data:
         "checked_startup": "checked" if svc["name"] == "Startup India Recognition Service" else "",
         
         "checked_web": "checked" if svc["name"] == "Website Development Service" else "",
+        "checked_ecommerce": "checked" if svc["name"] == "E-commerce Web Development Service" else "",
         "checked_marketing": "checked" if svc["name"] == "Performance Digital Marketing Service" else "",
         "checked_software": "checked" if svc["name"] == "Custom Software & App Development" else "",
         "checked_erp": "checked" if svc["name"] == "Custom ERP & CRM Solutions" else "",
