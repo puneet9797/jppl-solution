@@ -323,12 +323,12 @@ services_data = [
         "name": "E-commerce Web Development Service",
         "slug": "ecommerce-web-development",
         "icon": "fa-cart-shopping",
-        "image": "https://images.unsplash.com/photo-1556742049-0a67923004a3?auto=format&fit=crop&w=800&q=80",
+        "image": "../assets/ecommerce_banner.jpg",
         "tagline": "We design and build secure, scalable, high-converting e-commerce storefronts & online shopping portals.",
-        "overview": "We engineer end-to-end e-commerce solutions including custom online stores, Shopify/WooCommerce integrations, payment gateway setups (Razorpay, Stripe), inventory synchronization, secure cart architectures, and mobile-optimized shopping experiences.",
-        "value": "Drives online revenue, expands business reach globally, provides seamless omnichannel shopping experiences, and ensures secure multi-currency payment processing.",
-        "checklist_type": "Core E-Commerce Features",
-        "checklist_content": "Store UI/UX Design, Shopping Cart & Checkout, Payment Gateway (Razorpay/Stripe) Integration, Product & Inventory Management, Order Tracking, SSL Security & PCI-DSS Compliance.",
+        "overview": "We engineer enterprise-grade e-commerce ecosystems tailored to boost sales conversions and streamline operations. Our solutions encompass custom online shopping platforms, custom Shopify/WooCommerce architectures, native mobile storefronts, dynamic product catalog builders, real-time inventory synchronization, instant payment gateway integrations (Razorpay, Stripe, PhonePe, Paytm, UPI, COD), automated shipping carrier APIs (Shiprocket, India Post), dynamic discount coupon engines, and automated invoice processing.",
+        "value": "Accelerates online revenue growth, expands global business reach 24/7, delivers frictionless mobile-first checkout experiences, protects transaction data with PCI-DSS & SSL security, and automates multi-warehouse inventory management.",
+        "checklist_type": "Comprehensive E-Commerce Architecture & Features",
+        "checklist_content": "1. Custom Storefront UI/UX & Responsive Layouts | 2. Shopping Cart & One-Click Checkout | 3. Multi-Gateway Payment API Integration (Razorpay, Stripe, UPI, COD) | 4. SKU & Real-time Inventory Management | 5. Automated Shipping & Logistics Tracker Integration (Shiprocket) | 6. Dynamic Promo Coupons, Discounts & Loyalty Engine | 7. Customer Portal & Order Tracking Dashboard | 8. PCI-DSS Compliance, SSL Security & Automated Cloud Backups.",
         "related": ["website-development-services", "custom-software-app-development", "digital-marketing-services"]
     },
     
